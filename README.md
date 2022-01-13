@@ -1,9 +1,10 @@
 # useful-tips
 Reminders to self about various workflows
 
-# Python Setup
+# Initial Python Setup
 ## Windows
 <ol>
+  <li>Install Git Bash
   <li>Install <a href="https://github.com/pyenv-win/pyenv-win">pyenv-win</a> (windows version of pyenv). Here is what worked for me:
     <ol>
       <li>Use git to clone pyenv-win to home folder: <code>git clone https://github.com/pyenv-win/pyenv-win.git $HOME/.pyenv</code>
@@ -21,11 +22,16 @@ Reminders to self about various workflows
       <li>Run <code>curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | pyenv exec python</code>
       <li>You may get one of the two following errors. If you get these, disable the Python.exe and Python3.exe aliases. You can find them by typing "manage app execution aliases into the Windows Search box.
         <ul>
-          <li><code>python: command not found</code><br><code>curl: (23) Failed writing body (1354 != 1371)</code>
-          </li>
-          <li>
+          <li><samp>bash: python: command not found</samp><br><samp>curl: (23) Failed writing body (1354 != 1371)</samp>
+          <li><samp>/c/Users/username/AppData/Local/Microsoft/WindowsApps/ Permission Denied</samp>
         </ul>
     </ol>
 </ol>
 
-## 
+# Windows Quick Commands
+* Open task switcher (manages multiple desktops): WIN-TAB
+* Open window switcher: ALT-TAB
+
+## Browser Preferences (WIP)
+* Use Chrome for Google apps
+* Use Brave for other stuff
