@@ -1,7 +1,11 @@
+# Intro
+This is a list of useful tips for my own personal use. Some of this may or may not be useful to others. If you find it useful, you are free to use this repo in any way permitted by the repo's license. Please note that this repo will be a perpetual work in progress.
+
 # Table of Contents
 1. [Initial Python Setup](#initial-python-setup)
 2. [Windows Quick Commands](#windows-quick-commands)
-3. [Browser Preferences[(#browser-preferences)
+3. [Browser Preferences](#browser-preferences)
+4. [Git Quick References](#git-quick references)
 
 # Initial Python Setup
 ## Windows
@@ -43,3 +47,9 @@
 * Use Brave for other stuff
 * Firefox container feature is also useful
 * Vivaldi has useful features that display content from up to 4 different websites side-by-side
+
+# Git Quick References
+* Clone a repo from the web: `$ git clone https://github.com/nurse-the-code/useful-tips.git`
+* Add all changes in the working tree to the staging area: `$ git add -A`
+* Commit work with quick message: `$ git commit -m "describe your commit here`
+* Push changes to server: `git push origin main` (`origin` is the name of the specific repo instance; `main` is the name of the branch). This example could refer to your fork of the repo, or it could refer to the original repo (especially if you originally made the repo).
