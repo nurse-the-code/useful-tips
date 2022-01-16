@@ -1,5 +1,7 @@
-# useful-tips
-Reminders to self about various workflows
+# Table of Contents
+1. [Initial Python Setup](#initial-python-setup)
+2. [Windows Quick Commands](#windows-quick-commands)
+3. [Browser Preferences[(#browser-preferences)
 
 # Initial Python Setup
 ## Windows
@@ -30,8 +32,14 @@ Reminders to self about various workflows
 
 # Windows Quick Commands
 * Open task switcher (manages multiple desktops): WIN-TAB
+* Change tasks (aka change desktop): 4 finger swipe on laptop
 * Open window switcher: ALT-TAB
+* Change windows: 3 finger swipe on laptop
+* Paste text in terminal: SHIFT-INSERT
 
-## Browser Preferences (WIP)
+## Browser Preferences
+### Browser Choice
 * Use Chrome for Google apps
 * Use Brave for other stuff
+* Firefox container feature is also useful
+* Vivaldi has useful features that display content from up to 4 different websites side-by-side
