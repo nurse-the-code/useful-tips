@@ -5,7 +5,7 @@ This is a list of useful tips for my own personal use. Some of this may or may n
 1. [Initial Python Setup](#initial-python-setup)
 2. [Windows Quick Commands](#windows-quick-commands)
 3. [Browser Preferences](#browser-preferences)
-4. [Git Quick References](#git-quick references)
+4. [Git Quick References](#git-quick-references)
 
 # Initial Python Setup
 ## Windows
@@ -50,6 +50,9 @@ This is a list of useful tips for my own personal use. Some of this may or may n
 
 # Git Quick References
 * Clone a repo from the web: `$ git clone https://github.com/nurse-the-code/useful-tips.git`
-* Add all changes in the working tree to the staging area: `$ git add -A`
+* Add all changes in the working tree to the staging area: `$ git add -A` (the `-A` option is case-sensitive)
 * Commit work with quick message: `$ git commit -m "describe your commit here`
-* Push changes to server: `git push origin main` (`origin` is the name of the specific repo instance; `main` is the name of the branch). This example could refer to your fork of the repo, or it could refer to the original repo (especially if you originally made the repo).
+* Pull a remote to get the most recent updates: `$ git pull <remote-name> <branch-name>` (e.g. `git pull origin main`). Always pull before pushing a repo when working for others.
+* Push changes to server: `$ git pull <remote-name> <branch-name>` (e.g. `git pull origin main`). The remote in this example could refer to a remote you forked, or it could refer to the original remote (especially if you originally made the repo).
+* Adding the working directory (not necessarily the working tree) to the repo: `$ git add .`. Note: if this is the root directory of the git project, then this command adds everything to the repo (much like `$ git add -A`).
+* Directories added to the staging area are always added recursively.
