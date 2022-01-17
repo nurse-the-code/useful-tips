@@ -51,8 +51,8 @@ This is a list of useful tips for my own personal use. Some of this may or may n
 # Git Quick References
 * Clone a repo from the web: `$ git clone https://github.com/nurse-the-code/useful-tips.git`
 * Add all changes in the working tree to the staging area: `$ git add -A` (the `-A` option is case-sensitive)
-* Commit work with quick message: `$ git commit -m "describe your commit here`
+* Commit work with quick message: `$ git commit -m "describe your commit here"`
 * Pull a remote to get the most recent updates: `$ git pull <remote-name> <branch-name>` (e.g. `git pull origin main`). Always pull before pushing a repo when working for others.
-* Push changes to server: `$ git pull <remote-name> <branch-name>` (e.g. `git pull origin main`). The remote in this example could refer to a remote you forked, or it could refer to the original remote (especially if you originally made the repo).
-* Adding the working directory (not necessarily the working tree) to the repo: `$ git add .`. Note: if this is the root directory of the git project, then this command adds everything to the repo (much like `$ git add -A`).
+* Push changes to server: `$ git pull <remote-name> <branch-name>` (e.g. `git push origin main`). The remote in this example could refer to a remote you forked, or it could refer to the original remote (especially if you originally made the repo).
+* Adding the working directory (i.e. as in `$ pwd` -- not necessarily the whole working tree) to the repo: `$ git add .`. Note: if this is the root directory of the git project, then this command adds everything to the repo (much like `$ git add -A`).
 * Directories added to the staging area are always added recursively.
