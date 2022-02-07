@@ -26,7 +26,11 @@ public class Foo {
 - To print formated text (line return not included): `System.out.format("Text to print go here and %s", "other arguments go here");`
 
 ### Capture user input
-- Create a `Scanner` object to capture keyboard stream: `Scanner input = new Scanner(System.in);`
+```
+Scanner input = new Scanner(System.in); // create Scanner object to capture keyboard stream
+System.out.print("Type something in: ");  // prompt user for input
+String userInput = input.nextLine();  // accept keyboard input from user until they hit enter; save input as a String variable
+```
 
 ### Colored text and colored background in text
 To print a single line of green text
@@ -43,7 +47,7 @@ public class foo {
 }
 ```
 
-To change the background color:
+To text with a blue background:
 ```
 public class foo {
 
@@ -60,7 +64,7 @@ public class foo {
 Basic color library:
 ```
 // For reseting color
- public static final String ANSI_RESET = "\u001B[0m";
+public static final String ANSI_RESET = "\u001B[0m";
  
 // For changing color of text
 public static final String ANSI_BLACK = "\u001B[30m";
