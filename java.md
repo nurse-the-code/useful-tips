@@ -27,9 +27,9 @@ public class Foo {
 
 ### Capture user input
 ```
-Scanner input = new Scanner(System.in); // create Scanner object to capture keyboard stream
-System.out.print("Type something in: ");  // prompt user for input
-String userInput = input.nextLine();  // accept keyboard input from user until they hit enter; save input as a String variable
+Scanner input = new Scanner(System.in);     // create Scanner object to capture keyboard stream
+System.out.print("Type something in: ");    // prompt user for input
+String userInput = input.nextLine();        // accept keyboard input until enter is pressed; save input as a String variable
 ```
 
 ### Colored text and colored background in text
